@@ -32,7 +32,4 @@ def GetAccountInfo():
     
     return User.fetchall(),Pass.fetchall(),Id.fetchall()
 
-if __name__ == "__main__":
-    app.run(debug=True)
-
 cur.close()
